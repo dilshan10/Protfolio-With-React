@@ -1,8 +1,12 @@
 import React from "react";
+import NavBar from "../components/NavBar";
+import HeroImg from "../components/HeroImage";
 
 const Project = () =>{
     return(
-        <div>Project</div>
+        <div>
+            <NavBar/>
+        </div>
     )
 }
 

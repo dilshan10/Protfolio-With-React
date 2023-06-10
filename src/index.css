@@ -10,8 +10,6 @@ font-family:"Outfit",sans-serif;
 
 body{
   background: black;
-    width: 100vw;
-    height: 100vh;
 }
 
 a{
@@ -36,8 +34,10 @@ ul{
 }
 
 .btn-light{
+    padding: 12px 32px;
     background: transparent;
     color: white;
+    border: 1px solid white;
 }
 
 .btn:hover{
