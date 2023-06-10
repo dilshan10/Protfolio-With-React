@@ -28,16 +28,19 @@ const NavBar = () =>{
             </Link>
             <ul className={click ? "nav-list active":"nav-list"}>
                 <li>
-                    <Link to ="/">Home</Link>
+                    <Link to ="/">HOME</Link>
                 </li>
                 <li>
-                    <Link to ="/about">About</Link>
+                    <Link to ="/about">ABOUT</Link>
                 </li>
                 <li>
-                    <Link to ="/skils">Skils</Link>
+                    <Link to ="/skils">SKILS</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to ="/Project">PROJECT</Link>
+                </li>
+                <li>
+                    <Link to="/contact">CONTACT</Link>
                 </li>
             </ul>
 
