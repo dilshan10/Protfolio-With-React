@@ -3,6 +3,7 @@ import "./index.css";
 import Home from "./routes/Home"
 import About from "./routes/About";
 import Skils from "./routes/skils"
+import Project from "./routes/project"
 import Contact from "./routes/Contact"
 
 import {Route,Routes} from 'react-router-dom'
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element ={<About/>}/>
           <Route path='/skils' element ={<Skils/>}/>
+          <Route path ='/project' element={<Project/>}/>
           <Route path='/contact' element ={<Contact/>}/>
       </Routes>
   );
