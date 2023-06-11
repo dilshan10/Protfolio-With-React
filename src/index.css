@@ -45,3 +45,9 @@ ul{
     color: white;
     transition: 0.3s;
 }
+
+.btn-light:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}

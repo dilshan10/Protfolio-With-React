@@ -1,11 +1,12 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import HeroImg from "../components/HeroImage";
+import Footer from "../components/Footer";
 
 const Contact = () => {
     return(
         <div>
             <NavBar/>
+            <Footer/>
         </div>
     )
 }
