@@ -2,7 +2,7 @@ import "./FooterStyle.css";
 
 import React from "react";
 
-import {FaHome, FaMailBulk, FaPhone,FaFacebook,FaWhatsapp} from "react-icons/fa";
+import {FaHome, FaMailBulk, FaPhone,FaFacebook,FaWhatsapp,FaTelegram} from "react-icons/fa";
 
 const Footer = () => {
     return(
@@ -22,10 +22,25 @@ const Footer = () => {
                     <div className="phone">
                         <FaPhone size={20} style={{color: "white",marginRight:"2ram"}}/>
                         <div>
-                            <p>075 4313114</p>
-                            <p>070 4461292</p>
+                            <p>+94 075 4313114</p>
+                            <p>+94 070 4461292</p>
                         </div>
                     </div>
+
+                    <div className="mail">
+                        <FaWhatsapp size={20} style={{color : "white",marginRight:"2ram"}}/>
+                        <div>
+                            <p>+94 0754313114</p>
+                        </div>
+                    </div>
+
+                    <div className="mail">
+                        <FaTelegram size={20} style={{color : "white",marginRight:"2ram"}}/>
+                        <div>
+                            <p>+94 0754313114</p>
+                        </div>
+                    </div>
+
                     <div className="mail">
                         <FaMailBulk size={20} style={{color : "white",marginRight:"2ram"}}/>
                         <div>
@@ -35,7 +50,12 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="right">
-
+                    <div className="mail">
+                        <FaFacebook size={20} style={{color : "white",marginRight:"2ram"}}/>
+                        <div>
+                            <p>Chathuraga Dilshan</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

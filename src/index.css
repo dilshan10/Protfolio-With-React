@@ -34,6 +34,7 @@ ul{
 }
 
 .btn-light{
+    font-size: 1rem;
     padding: 12px 32px;
     background: transparent;
     color: white;
