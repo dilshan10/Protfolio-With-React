@@ -13,8 +13,8 @@ const skils = () =>{
             <NavBar/>
             <HeroImageTwo heading="SKILS AND TOOLS" text="This is skils i have and tools i work."/>
             <Languages/>
-            <Skils/>
             <Tools/>
+            <Skils/>
             <Footer/>
         </diV>
     )
